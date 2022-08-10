@@ -47,6 +47,30 @@
 // *******************
 // Class 21 - 2
 // *******************
+// const lyrics = "tumi bondhu kala pakhi ami jano ki";
+// kono kicu khujta hola  (includes)
+let serce = "tUmi";
+// const doesExist = lyrics.toLowerCase().includes(serce.toLowerCase());
+// console.log(doesExist);
+// ================================================
+// indexOf
+
+// console.log(lyrics.indexOf("kala"));
+// if (lyrics.indexOf("kafla") !== -1) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+
+// ==================================
+// startsWith
+// console.log(lyrics.startsWith("tumi"));
+// console.log(lyrics.endsWith("kri"));
+
+
+
+
+
 
 
 
@@ -54,6 +78,25 @@
 // Class 21 - 3
 // *******************
 
+
+// const lyrics = "tumi bondhu kala tumi bondhu kala . pakhi ami jano ki pakhi ami jano ki";
+// let sentence = lyrics.split(".")
+// let word = lyrics.split(" ")
+// let leter = lyrics.split("");
+// let hi = lyrics.slice(5, 10);
+// console.log(hi);
+// let hi2 = lyrics.substring(5, 10);
+// console.log(hi2);
+
+// let line = [
+//     'tumi', 'bondhu', 'kala',
+//     'tumi', 'bondhu', 'kala',
+//     '.', 'pakhi', 'ami',
+//     'jano', 'ki', 'pakhi',
+//     'ami', 'jano', 'ki'
+// ];
+// let lineJoin = line.join(" ");
+// console.log(lineJoin);
 
 
 // *******************
@@ -222,6 +265,33 @@
 // Class 21 - 8
 // *******************
 
+// const myArry = "i am a good boy";
+// function reversString(array) {
+//     let revest = "";
+//     for (let i = array.length - 1; i >= 0; i--) {
+//         let index = array[i];
+//         revest = revest + index;
+//     }
+//     return revest;
+// }
+// console.log(reversString(myArry));
+
+
+
+
+// const myArry = "i am a good boy";
+// function reversString(array) {
+//     let words = array.split("  ");
+//     let revest = "";
+//     for (let i = words.length - 1; i >= 0; i--) {
+//         let index = words[i];
+//         revest = revest + index;
+//     }
+//     return revest;
+// }
+// console.log(reversString(myArry));
+
+
 
 
 
@@ -245,7 +315,7 @@ fibo[i]=fibo[i-1]+fibo[i-2];
 */
 
 // let fibo = [0, 1];
-// for (let i = 2; i < 20; i++) {
+// for (let i = 2; i < 15; i++) {
 //     fibo[i] = fibo[i - 1] + fibo[i - 2];
 // }
 // console.log(fibo);
